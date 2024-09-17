@@ -1,9 +1,264 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "users": [
+    {
+      "id": "9Z7HaqZ",
+      "fullName": "Admin Primary",
+      "email": "admin01@gmail.com",
+      "password": "$2a$10$wl82E7vrzRCuhJT0G96hSuXPUAQoKn8xrQQROwCUMy5u.2NMFMMK."
+    },
+    {
+      "id": "8A7QaqZ",
+      "fullName": "Admin Secondary",
+      "email": "admin02@gmail.com",
+      "password": "$2a$10$E6DM/u54rzqSeUeHrj65au/zQkt.2oagj/01jC0QB5rKvCVuH3696"
+    },
+    {
+      "fullName": "Admin Backup",
+      "email": "admin@gmail.com",
+      "password": "$2a$10$Ez3kaPSEDo48NU/bZ71rtOqja3xmQTQfiaYiGp8B.iy4r3kD6NLsO",
+      "id": "zVWcwgZ"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "products": [
+    {
+      "id": 1,
+      "imageUrl": "https://s3-alpha-sig.figma.com/img/83a0/9b04/2d4db129912953ae38cad13073fa2239?Expires=1727654400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=UsGjnBD7-2yaHkhiEn3Wss0oPRsUb476zSxf5m7TqzC-gkInAK4VtJUEgMyNO5GLdxivqFJGBJkexK1bNV0HBu7BDi2TxDtvygcsOy5I4gcMztg7s9Wsrio93-Ma6ZOhFBl6b1CRjLfNu20RZx7Aq53FNL2jvyeTxs1VNddsqySH~~6mNji05S6lPbxztICOL0Y1jFsNSel7Sn2mp7Z9hjWNTPTXwCaW5CX~B~YyQX9I2zczIDJNvNp6bf8891u0NVwbV1idwZemTpc-Y66cspJlv~LJzg5SX4Fq-1nzt5PnEMVql9CE4ZbtgVRYM3dI0WG~tnyeITlrvCBs3JWcpw__",
+      "title": "Plain White Shirt",
+      "price": 29,
+      "shortDescription": "A classic t-shirt never goes out of style. This is our most premium collection of shirt. This plain white shirt is made up of pure cotton and has a premium finish.",
+      "description": "A key objective is engaging digital marketing customers and allowing them to interact with the brand through servicing and delivery of digital media. Information is easy to access at a fast rate through the use of digital communications. Users with access to the Internet can use many digital mediums, such as Facebook, YouTube, Forums, and Email etc. Through Digital communications it creates a Multi-communication channel where information can be quickly exchanged around the world by anyone without any regard to whom they are.[28] Social segregation plays no part through social mediums due to lack of face to face communication and information being wide spread instead to a selective audience. ",
+      "sizes": [
+        "s",
+        "m",
+        "l"
+      ],
+      "categoryIds": [
+        1,
+        2
+      ],
+      "tagIds": [
+        1,
+        2
+      ],
+      "isBestSeller": true,
+      "rating": 4,
+      "reviewAmount": 10
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://s3-alpha-sig.figma.com/img/282d/594e/e61c99afe0628b20858a8bf64dcdc6e3?Expires=1727654400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ELtdQ~3WlVjw2aYHs9UTX5SJbXt~cDZ3Lo6fK5vEC~H~epvq-zs3qX6XkuG-8bcs1tLy7oqUWsGxtmc7W5z9Vq8iI0hM8KTd968Zonbb3IwLrviUgp2-qvigEkJrHOt5CTkqxsiRT7d3zOBu8Q2R2X2ZOImPFdKPzzmkEIOpyza9y0Qr6FSa7PwH-JmSxJR7zXKXxSXjBiGYIyrJYe3DJy815M005HpvzqFO07eG86xRwYCEyQ7cN1damCDh2XftZJ~KIKtcR6pmWlgD0rcvACo2Mh2uI3UhZYxKQHjfNJitMYsqpI-N3~PvIKWeTTXU7GvCioWuFcSgBnr6dw8~MQ__",
+      "title": "Denim Jacket",
+      "price": 69,
+      "shortDescription": "A classic t-shirt never goes out of style. This is our most premium collection of shirt. This plain white shirt is made up of pure cotton and has a premium finish.",
+      "description": "A key objective is engaging digital marketing customers and allowing them to interact with the brand through servicing and delivery of digital media. Information is easy to access at a fast rate through the use of digital communications. Users with access to the Internet can use many digital mediums, such as Facebook, YouTube, Forums, and Email etc. Through Digital communications it creates a Multi-communication channel where information can be quickly exchanged around the world by anyone without any regard to whom they are.[28] Social segregation plays no part through social mediums due to lack of face to face communication and information being wide spread instead to a selective audience. ",
+      "sizes": [
+        "s",
+        "m"
+      ],
+      "categoryIds": [
+        1,
+        2,
+        3
+      ],
+      "tagIds": [
+        1,
+        2,
+        3
+      ],
+      "isBestSeller": true,
+      "rating": 2,
+      "reviewAmount": 1
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://s3-alpha-sig.figma.com/img/c47e/201f/bb97ad1f124d9ac71dae955ef4ef1fe9?Expires=1727654400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=XJG0LM6-8JgtIIBRSyF6zpFmSewYY22w-ZBQc4eNaxzyf9mVuLJfchtoaSfK-1uy19CGV-KH2zipVgZzseawlisYCvI1gcQR8xYFqyxH6bwvhr6L~nhUmt3VsKvW5cShqJmPKHuXDy5kBgm-yMQCAkvYgedRYGiYJZkAhgtxOY4~lzp6Ekt2ZMJUAVhmSQkZi38zS05RpcE~UtmP9oeEn6~SaL~csbMsgg-aIUr2jRekL~gzTnIHq7DQeYMon4a2tH6a63jF-yI5mco7Ek2BA4Q6JpamcM-qbLSw44YcYEwnAP425Wj5VbSaGSvx3IVggWUDsthFmdF~3CxtIHSL0A__",
+      "title": "Black Polo Shirt",
+      "price": 49,
+      "shortDescription": "A classic t-shirt never goes out of style. This is our most premium collection of shirt. This plain white shirt is made up of pure cotton and has a premium finish.",
+      "description": "A key objective is engaging digital marketing customers and allowing them to interact with the brand through servicing and delivery of digital media. Information is easy to access at a fast rate through the use of digital communications. Users with access to the Internet can use many digital mediums, such as Facebook, YouTube, Forums, and Email etc. Through Digital communications it creates a Multi-communication channel where information can be quickly exchanged around the world by anyone without any regard to whom they are.[28] Social segregation plays no part through social mediums due to lack of face to face communication and information being wide spread instead to a selective audience. ",
+      "sizes": [
+        "s",
+        "m",
+        "l"
+      ],
+      "categoryIds": [
+        2
+      ],
+      "tagIds": [
+        1
+      ],
+      "isBestSeller": true,
+      "rating": 4,
+      "reviewAmount": 10
+    },
+    {
+      "id": 4,
+      "imageUrl": "https://s3-alpha-sig.figma.com/img/145d/9cd5/15b25cb6cab25d500c32794f4fcaeb33?Expires=1727654400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=AUD9c11ImFGJthdcjHpSCFpbdkVn-s52rJDPwTkQaEATcu-Id6oQF4wYnY9fMtsaBfOFXLiJLxPRhmvwcIzqD1AcSuzVmxTp6BYFitckYMGuvK87mrcEZ~g5ih7yghIYm1DsXhJFgEuRl1j~AnsTuyvms5Po4VTO8-kbsNTacZG9lX2PY7Q4vhW11KiLrTaPPnnRqXRNtICex6I7YAF~jwHWBGKQAkDnJXzl87qXCUyVYM-5vSCNnexJvDueVysXst-KPNxJq9w1-edz4K~p4yDxVxwZ9c-woqhQtYahLsXJshzv6yx1x6a9nYWVKtsxCq3Z~-V8iD5m7EwCiA42dA__",
+      "title": "Blue Sweatshirt",
+      "price": 79,
+      "shortDescription": "A classic t-shirt never goes out of style. This is our most premium collection of shirt. This plain white shirt is made up of pure cotton and has a premium finish.",
+      "description": "A key objective is engaging digital marketing customers and allowing them to interact with the brand through servicing and delivery of digital media. Information is easy to access at a fast rate through the use of digital communications. Users with access to the Internet can use many digital mediums, such as Facebook, YouTube, Forums, and Email etc. Through Digital communications it creates a Multi-communication channel where information can be quickly exchanged around the world by anyone without any regard to whom they are.[28] Social segregation plays no part through social mediums due to lack of face to face communication and information being wide spread instead to a selective audience. ",
+      "sizes": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "categoryIds": [
+        1,
+        2
+      ],
+      "tagIds": [
+        1,
+        2
+      ],
+      "isBestSeller": true,
+      "rating": 5,
+      "reviewAmount": 5
+    },
+    {
+      "id": 5,
+      "imageUrl": "https://s3-alpha-sig.figma.com/img/e3d9/7fd9/2a581d4587bb2d6bca3d00fcb6b53785?Expires=1727654400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Cvachi6j7dP-VDEH4~oZiDhUqYZBBMZYRVgYQfmm94p7T8n07ad0X2gLcsulqaOX26kbrEegfX4-FLis0g1bjlMBwCs3QmFm-cU5TjOX4Y8DrEpluvRNzYbGSXoIGJsabCqfSfkk5HbcX-Mq-xdz~YJxFCI4gLmabd9n~6ZK200ru7-AswTuX9IZn~RGOnzDfjzQonkRyQUV~Va3sEOC6sCPCAd6PVLK~6lTiQfzO7n~9DC1fM5Imk2vtMSx3InLYwFqXuYbdCoFHl5I4LriWo~o3WYk4fc~ugRB~sXFjrBeCsueEMMoCnqgcNSTZMhLyYDmn168skiFTxfnOxc~VA__",
+      "title": "Blue Plain Shirt",
+      "price": 49,
+      "shortDescription": "A classic t-shirt never goes out of style. This is our most premium collection of shirt. This plain white shirt is made up of pure cotton and has a premium finish.",
+      "description": "A key objective is engaging digital marketing customers and allowing them to interact with the brand through servicing and delivery of digital media. Information is easy to access at a fast rate through the use of digital communications. Users with access to the Internet can use many digital mediums, such as Facebook, YouTube, Forums, and Email etc. Through Digital communications it creates a Multi-communication channel where information can be quickly exchanged around the world by anyone without any regard to whom they are.[28] Social segregation plays no part through social mediums due to lack of face to face communication and information being wide spread instead to a selective audience. ",
+      "sizes": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "categoryIds": [
+        1,
+        2
+      ],
+      "tagIds": [
+        1,
+        2
+      ],
+      "isBestSeller": false,
+      "rating": 0,
+      "reviewAmount": 0
+    },
+    {
+      "id": 6,
+      "imageUrl": "https://s3-alpha-sig.figma.com/img/585b/4560/d2543c483af597db445b8913be298793?Expires=1727654400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Sff5IcOz7pdLV5vkPiTYgsAAj4ErO7qYaavHPBUWjTNWGdr8K4K-9Iq4WuS~nwSKQaW6oQXCXoPbVhWsjI66C0Z503zbUcwUw1cfPAIs2Zj3YN~1quCLg4PJkx9g9yoJcEzsuQ2chxSOXCiWZAyWFbg8EFqVssSi2DIDKqKJJoMI6U1YJfD9ANhrcNTEpXaGaLqpBmHhvbP9mFOd6wT0MmEi7RuYiY5DgqOn2l6J9majOH-ugRAeOkke644FGr~6sj748n7aCHpcbQJHRc~aLgGiBoCPEsU0WXfKoEXOFZ3IUsyuYnMMllTBrf5GAq46COatNBeIVXokhn6cKcL57g__",
+      "title": "Dark Blue Shirt",
+      "price": 89,
+      "shortDescription": "A classic t-shirt never goes out of style. This is our most premium collection of shirt. This plain white shirt is made up of pure cotton and has a premium finish.",
+      "description": "A key objective is engaging digital marketing customers and allowing them to interact with the brand through servicing and delivery of digital media. Information is easy to access at a fast rate through the use of digital communications. Users with access to the Internet can use many digital mediums, such as Facebook, YouTube, Forums, and Email etc. Through Digital communications it creates a Multi-communication channel where information can be quickly exchanged around the world by anyone without any regard to whom they are.[28] Social segregation plays no part through social mediums due to lack of face to face communication and information being wide spread instead to a selective audience. ",
+      "sizes": [
+        "xl"
+      ],
+      "categoryIds": [
+        1,
+        2
+      ],
+      "tagIds": [
+        1,
+        2
+      ],
+      "isBestSeller": false,
+      "rating": 4,
+      "reviewAmount": 10
+    },
+    {
+      "id": 7,
+      "imageUrl": "https://s3-alpha-sig.figma.com/img/09ad/7977/5a7571e0aeebf22860d85ebdfce7a08a?Expires=1727654400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=HT5osX2PLwGX37jkhNhcqyoLCuM6O1l6JFc4JESJkb9y1Ib2VpsqU2MtUM4-phc2mryvfPsFUSvI8Ej~szza60LMlZNuzJoXfCP9VlE8g74CrMqe77YfJWCdpUFfq5zo-H0lhHHkZND4lWpcbifexla9b9TLcaOp6GzsBv771WvhnH9J94YC40iaOkZlY5JJlnhRL0ldZGhPSk4lZheKbKtgObFAXs8Eqnbf3fA9iZH5wke1eLNhpOG19eTXT8dTPHd~nmrUoAj57AoKDZqNO6aXDntxCvDC8VEleDCttLoQkoL4Mu1mDC0M1shHHrmROxSMYl4P8Mv4jEQZxn3xNg__",
+      "title": "Outcash T Shirt",
+      "price": 19,
+      "shortDescription": "A classic t-shirt never goes out of style. This is our most premium collection of shirt. This plain white shirt is made up of pure cotton and has a premium finish.",
+      "description": "A key objective is engaging digital marketing customers and allowing them to interact with the brand through servicing and delivery of digital media. Information is easy to access at a fast rate through the use of digital communications. Users with access to the Internet can use many digital mediums, such as Facebook, YouTube, Forums, and Email etc. Through Digital communications it creates a Multi-communication channel where information can be quickly exchanged around the world by anyone without any regard to whom they are.[28] Social segregation plays no part through social mediums due to lack of face to face communication and information being wide spread instead to a selective audience. ",
+      "sizes": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "categoryIds": [
+        1,
+        2
+      ],
+      "tagIds": [
+        1,
+        2
+      ],
+      "isBestSeller": false,
+      "rating": 4,
+      "reviewAmount": 10
+    },
+    {
+      "id": 8,
+      "imageUrl": "https://s3-alpha-sig.figma.com/img/ecd7/c0aa/24878bbe063cd505d7e06eb3ed39a5e1?Expires=1727654400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=hx3EiTqIHi6OG6MGvVicE25q0mHATNya~4CBvfqsExxEPHJ-7KdcvxemlDkdhZppfYlsxZgPC2a8l64ian5eVPg7a3CZygJt~GAEuZOHC5vLwb~Mba4hW4wmTe10u0dO5lvCcUp2BTSMLGc54lM5Gqe3xd-9irGIaj-fTGhhOifIBNaH5oW94aueU6WSbeiRqXnBFIPK4lU4X9XCQuk9XN8pC8oyWtpb3KYC8XVXHQPIpkekL4U1~qySNU5LzLMdK5O~X0H8JQlrk3gGqQ1pdB9kCZekATzWHgIlIyM4ljsIG9v24tOu7q7DaECpLOMIL246c6Ml3~CwJaVxYkq-iQ__",
+      "title": "Polo Plain Shirt",
+      "price": 29,
+      "shortDescription": "A classic t-shirt never goes out of style. This is our most premium collection of shirt. This plain white shirt is made up of pure cotton and has a premium finish.",
+      "description": "A key objective is engaging digital marketing customers and allowing them to interact with the brand through servicing and delivery of digital media. Information is easy to access at a fast rate through the use of digital communications. Users with access to the Internet can use many digital mediums, such as Facebook, YouTube, Forums, and Email etc. Through Digital communications it creates a Multi-communication channel where information can be quickly exchanged around the world by anyone without any regard to whom they are.[28] Social segregation plays no part through social mediums due to lack of face to face communication and information being wide spread instead to a selective audience. ",
+      "sizes": [
+        "s",
+        "m",
+        "l"
+      ],
+      "categoryIds": [
+        1,
+        2
+      ],
+      "tagIds": [
+        1,
+        2
+      ],
+      "isBestSeller": false,
+      "rating": 0,
+      "reviewAmount": 0
+    }
   ],
-  "profile": { "name": "typicode" }
+  "categories": [
+    {
+      "id": 1,
+      "name": "Women"
+    },
+    {
+      "id": 2,
+      "name": "Polo"
+    },
+    {
+      "id": 3,
+      "name": "Casual"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "Modern"
+    },
+    {
+      "id": 2,
+      "name": "Design"
+    },
+    {
+      "id": 3,
+      "name": "cotton"
+    }
+  ],
+  "carts": [
+    {
+      "id": "af3a8b65-81e2-4195-83ee-4d85c145ba80",
+      "userId": "zVWcwgZ",
+      "cartDetails": [
+        {
+          "id": "1dd8dc22-b503-415f-ab3d-76cf99078973",
+          "productId": 3,
+          "quantity": 1,
+          "size": "s"
+        },
+        {
+          "id": "989ee0e5-be5d-41c2-845f-406fe485576c",
+          "productId": 3,
+          "quantity": 5,
+          "size": "l"
+        }
+      ]
+    }
+  ]
 }
